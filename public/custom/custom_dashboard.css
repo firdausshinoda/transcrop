@@ -1,0 +1,104 @@
+html, body {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+.navbar{
+    padding: .2rem 0 .2rem 1rem;
+    transition: all 0.4s;
+}
+.navbar .nav-link {
+    color: #1bbc9b !important;
+    font-size: 20px !important;
+}
+.navbar .nav-link:hover, .navbar .nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-brand {
+    color: white;
+}
+.navbar-nav > .active{
+    font-weight: bold;
+}
+.navbar-nav-dark > .active > .nav-link{
+    color: white;
+}
+.navbar-active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-active > .container > #navbarText > ul > .nav-item > .nav-link {
+    color: black !important;
+}
+.navbar-active > .container > #navbarText > ul > .nav-item > .nav-link:hover,
+.navbar-active > .container > #navbarText > ul > .nav-item > .nav-link:focus {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+.text-black{
+    color: black;
+}
+#index-page-top{
+    height: 100vh;
+}
+.bg-map::before{
+    content: '';
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    opacity: .5;
+    background: url('./../img/bg-map-transparant.png') no-repeat center 100%;
+    background-size: cover;
+}
+.badge-default{
+    background-color: #dcffff;
+    color: #1bbc9b;
+}
+.badge-apps-work{
+    background-color: #e6f4ec;
+    color: black;
+    font-size: 20px;
+    font-weight: unset;
+}
+.number-step{
+    width: 4vw;
+    height: 4vw;
+    border-radius:20%;
+    font-size: 28px;
+}
+.bg-rounded-default{
+    border-radius: 25px;
+    background-color: #1bbc9b;
+    background-image: url('./../img/bg-deskripsi.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg-rounded-default::before{
+    content: '';
+    border-radius: 25px;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    opacity: .2;
+    background: url('./../img/bg-map.png') no-repeat center 100%;
+    background-size: cover;
+}
+.bg-rounded-default > .card-body{
+    padding: 6%;
+}
+.btn-default{
+    background-color: #1bbc9b;
+    color: #FFFFFF;
+    border: solid #15836b 2px;
+    border-radius: 40px;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #15836b;
+    border-color: #15836b;
+}
+.form-control-kritik-saran{
+    border-radius: unset;
+    border: solid #15836b 1px;
+}

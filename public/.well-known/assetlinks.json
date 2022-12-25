@@ -1,0 +1,10 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.firdaus.transcrop",
+            "sha256_cert_fingerprints": ["23:BD:EC:E0:5C:14:CC:D3:E5:42:2B:A7:89:C9:4E:FF:E3:26:0E:9D:40:5C:CF:5E:F1:03:74:29:F7:AF:FC:4F"]
+        }
+    }
+]
